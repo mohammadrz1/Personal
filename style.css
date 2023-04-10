@@ -1,0 +1,56 @@
+/* css gemaral start */
+*{
+    font-family:Poppins;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: #222;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+::a{
+    color: #8c99ff;
+}
+::selection{
+    background-color: #8490ff;
+    color: white;
+}
+/* css gemaral end */
+/* header :start */
+#header-contenar{
+    position: sticky;
+    top: 20px;
+    background-color:#fff;
+}
+.contenar{
+    width: 1155px;
+    margin: 0 auto;
+}
+header>div{
+    display: inline-block;
+    float: right;
+    margin-bottom: 10px;
+}
+header>div>ul{
+    margin-top: 2.1px;
+    margin-right: 20px;
+}
+header>div>ul>li{
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 28.5px;
+}
+header>div>ul>li:first-of-type a{
+    color: #8c99ff;
+}
+header>div>ul>li>a:hover{
+    color: #8c99ff;
+}
+/* header end */
