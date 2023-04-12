@@ -48,10 +48,10 @@ header>div>ul>li{
     margin-left: 28.5px;
     position: relative;
 }
-header>div>ul>li:first-of-type{
+header>div>ul>li:hover>a{
     color: #8c99ff;
 }
-header>div>ul>li:hover>a{
+header>div>ul>li:first-of-type a{
     color: #8c99ff;
 }
 header>div>ul>li ul{
