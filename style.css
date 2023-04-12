@@ -51,7 +51,7 @@ header>div>ul>li{
 header>div>ul>li:first-of-type{
     color: #8c99ff;
 }
-header>div>ul>li:first-of-type>a{
+header>div>ul>li:hover>a{
     color: #8c99ff;
 }
 header>div>ul>li ul{
