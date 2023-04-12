@@ -14,6 +14,7 @@ li{
 ul{
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 ::a{
     color: #8c99ff;
@@ -25,8 +26,6 @@ ul{
 /* css gemaral end */
 /* header :start */
 #header-contenar{
-    position: sticky;
-    top: 20px;
     margin-top: 20px;
     background-color:#fff;
 }
@@ -47,11 +46,24 @@ header>div>ul>li{
     font-size: 12px;
     font-weight: 500;
     margin-left: 28.5px;
+    position: relative;
 }
 header>div>ul>li:first-of-type a{
     color: #8c99ff;
 }
 header>div>ul>li>a:hover{
     color: #8c99ff;
+}
+header>div>ul>li>ul>li{
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+header>div>ul>li:hover ul li{
+    display: block;
+    padding: 10px;
+    background-color: #eee;
+    box-sizing: border-box;
 }
 /* header end */
