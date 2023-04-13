@@ -86,3 +86,70 @@ header>div>ul>li ul li:hover a{
     color: #8c99ff;
 }
 /* header end */
+/* main start */
+/* <!-- main first --> */
+.contenar #first-main{
+    background-color:#f9f9ff ;
+}
+.contenar #first-main div{
+    display: inline-block;
+    width: 48%;
+    position: relative;
+    bottom: 250px;
+}
+.contenar #first-main img{
+    display: inline-block;
+    width: 48%;
+    margin-top: 90px;
+}
+.contenar #first-main div p:first-of-type{
+    font-size: 14px;
+    font-weight: 400px;
+    color: #222;
+    letter-spacing: 3px;
+}
+.contenar #first-main div h1{
+    color: #222;
+    font-size: 65px;
+    margin: 20px 0;
+    font-weight: 600;
+}
+.contenar #first-main div p:last-of-type{
+    color: #777;
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+.contenar #first-main div a,.contenar #main2 a{
+    color: #fff;
+    background-color:#8490ff;
+    padding: 9px 30px;
+}
+.contenar #first-main div a:hover,.contenar #main2 a:hover{
+    box-shadow:0px 20px 20px 0px rgba(132, 144, 255, 0.3) ;
+}
+/* <!-- main first end --> */
+/* main.2 start  */
+.contenar #main2{
+    display: inline-block;
+    width: 48%;
+    margin-left: 20px;
+}
+.contenar #img-left{
+    width: 48%;
+    margin-top: 100px;
+}
+.contenar #main2 h2{
+    font-size: 35px;
+    margin: 25px 0;
+    font-weight: 600;
+}
+.contenar #main2 p:last-of-type{
+    font-size:15px ;
+    color: #777;
+    font-weight: 300;
+}
+.contenar #main2 a{
+    margin-top:20px;
+}
+/* main.2 end */
+/* main end */
