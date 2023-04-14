@@ -152,4 +152,22 @@ header>div>ul>li ul li:hover a{
     margin-top:20px;
 }
 /* main.2 end */
+/* main 3 sstart  */
+.contenar .main-3{
+    margin-top: 130px;
+    text-align: center;
+}
+.contenar .main-3>span{
+    font-size: 40px;
+    font-weight: 600;
+}
+.contenar .main-3 p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+}
+.contenar .main-3>p{
+    margin: 0 170px;
+}
+/* main 3 end */
 /* main end */
