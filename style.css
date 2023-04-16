@@ -153,21 +153,78 @@ header>div>ul>li ul li:hover a{
 }
 /* main.2 end */
 /* main 3 sstart  */
+/* title main 3 start */
 .contenar .main-3{
     margin-top: 130px;
     text-align: center;
 }
 .contenar .main-3>span{
-    font-size: 40px;
+    font-size: 37px;
     font-weight: 600;
+    color: #222;
 }
 .contenar .main-3 p{
-    color: #777;
+    color: #4d4f4d;
     font-size: 14px;
     font-weight: 300;
 }
 .contenar .main-3>p{
     margin: 0 170px;
 }
+/* title main 3 end */
+/* start body main 3 */
+.contenar .itm-card{
+    margin-top: 50px;
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+    margin-right: 30.49px;
+}
+.contenar .itm-card>*{
+    display: block;
+}
+.contenar .itm-card>span{
+    font-size: 35px;
+    color: #222;
+}
+.contenar .itm-card>a{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 19px;
+}
+.contenar .itm-card>p{
+    color: #4d4f4d;
+    font-size: 13px;
+    margin-top: 15px;
+    font-weight: 300;
+}
+.contenar .itm-card:hover>a,.contenar .itm-card:hover>span{
+    color:#8490ff ;
+}
+/* end body main 3 */
 /* main 3 end */
+/* main 4 start */
+#main-4{
+    width: 100%;
+    background-color: #69b4fd;
+    margin-top: 130px;
+}
+#main-4 .contenar .numaber{
+    padding: 120px 0;
+    display: inline-block;
+    text-align: center;
+    
+}
+#main-4 .contenar .numaber:nth-child(2),#main-4 .contenar .numaber:nth-child(3),#main-4 .contenar .numaber:nth-child(4){
+    margin-left: 150px;
+}
+#main-4 .contenar .numaber p{
+    color: #fff;
+    margin: 0;
+}
+#main-4 .contenar .numaber h1{
+    color: #fff;
+    margin: 0;
+}
+/* main 4 end */
 /* main end */
