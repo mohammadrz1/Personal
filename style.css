@@ -1,6 +1,9 @@
 /* css gemaral start */
 *{
     font-family:Poppins;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.3s;
 }
 p{
     color: #4d4f4d;
@@ -58,26 +61,28 @@ header>div>ul>li:hover>a{
 header>div>ul>li:first-of-type a{
     color: #8c99ff;
 }
-header>div>ul>li ul{
+header>div>ul>li>ul{
     background-color: #eee;
     position: absolute;
     top: 55px;
     right: 0px;
     padding: 13px;
-    display: none;
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.3s;
 }
 header>div>ul>li:hover ul{
-    display: block;
+    opacity: 1;
+    visibility: visible;
 }
 header>div>ul>li>ul>li{
-    display: none;
     font-weight: 400;
     padding: 2px 18px 5px ;
-}
-header>div>ul>li:hover>ul>li{
     box-sizing: border-box;
     color: #333;
-    display: block;
     font-size: 12px;
 }
 header>div>ul>li:hover>ul>li:first-of-type{
@@ -183,6 +188,9 @@ header>div>ul>li ul li:hover a{
     width: 300px;
     display: inline-block;
     margin-right: 30.49px;
+
+    transition-property: all;
+    transition-duration: 0.01s;
 }
 .contenar .itm-card>*{
     display: block;
