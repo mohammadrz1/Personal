@@ -319,14 +319,14 @@ header>div>ul>li ul li:hover a{
     display: inline-block;
     display: none;
     position: absolute;
-    right: 150px;
+    right: 100px;
     bottom: 206px;
 }
 .itm-card-2>img:hover+a,.itm-card-2>a:hover,.itm-card-2:hover a{
     display: inline-block;
 }
-#slector ul li a:hover ~ #rpaer{
-    display: none;
+.itm-card-2>img:hover+a{
+
 }
 /* itme card main5 end */
 /* main end */
