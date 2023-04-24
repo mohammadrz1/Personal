@@ -442,10 +442,15 @@ header>div>ul>li ul li:hover a{
 #buy-card-main6{
     margin-top: 130px;
 }
+.itm-card-buy:nth-of-type(2),.itm-card-buy:nth-of-type(3){
+    margin-right: 40px;
+}
+.itm-card-buy:nth-of-type(2){
+    margin-left: 40px;
+}
 .itm-card-buy{
-    width: 23%; 
+    width: 20%; 
     display: inline-block;
-    margin-right: 10px;
 }
 .itm-card-buy *{
     display: block;
@@ -469,7 +474,6 @@ header>div>ul>li ul li:hover a{
     text-align: center;
     margin-top: 40px;
 }
-/* --------------------------------- */
 /* itm card buy main7 end */
 /* main 7 end */
 /* main end */
