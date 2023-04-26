@@ -230,7 +230,7 @@ header>div>ul>li ul li:hover a{
 /* main 4 start */
 #main-4{
     width: 100%;
-    background-color: #69b4fd;
+    background: linear-gradient(to right, #8490ff, #62bdfc);
     margin-top: 130px;
 }
 #main-4 .contenar .numaber{
