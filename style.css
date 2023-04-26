@@ -37,20 +37,33 @@ ul{
 /* css gemaral end */
 /* header :start */
 #header-contenar{
-    margin-top: 20px;
-    background-color:#fff;
+    width: 100%;
+    background-color: #eee;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index:1;
+    box-shadow: -21.213px 21.213px 30px 0px rgb(158, 158, 158,0.3);
+}
+header{
+    background-color:#eee;
+}
+header *{
+    margin-top: 8px;
+}
+header>img{
+    margin-top: 18px;
 }
 header>div{
     display: inline-block;
     float: right;
-    margin-bottom: 10px;
 }
 header>div>ul{
     margin-top: 2.1px;
     margin-right: 15px;
 }
 header>div>ul>li{
-    font-size: 13.5px;
+    font-size: 12px;
     font-weight: 500;
     margin-left: 28.5px;
     position: relative;
@@ -64,9 +77,8 @@ header>div>ul>li:first-of-type a{
 header>div>ul>li>ul{
     background-color: #eee;
     position: absolute;
-    top: 55px;
+    top: 44px;
     right: 0px;
-    padding: 13px;
     display: block;
     opacity: 0;
     visibility: hidden;
@@ -80,13 +92,13 @@ header>div>ul>li:hover ul{
 }
 header>div>ul>li>ul>li{
     font-weight: 400;
-    padding: 2px 18px 5px ;
+    padding: 2px 14px 5px;
     box-sizing: border-box;
     color: #333;
     font-size: 12px;
 }
-header>div>ul>li:hover>ul>li:first-of-type{
-    margin: 0 0 8px 0;
+header>div>ul>li>ul>li:last-of-type{
+    margin-bottom: 10px;
 }
 header>div>ul>li ul li a{
     width: 150px;
@@ -130,7 +142,7 @@ header>div>ul>li ul li:hover a{
 }
 .contenar #first-main div a,.contenar #main2 a{
     color: #fff;
-    background-color:#8490ff;
+    background: linear-gradient(to right, #8490ff, #62bdfc);
     padding: 9px 30px;
 }
 .contenar #first-main div a:hover,.contenar #main2 a:hover{
@@ -318,10 +330,14 @@ header>div>ul>li ul li:hover a{
 }
 .itm-card-2>a{
     display: inline-block;
+    background: linear-gradient(to right, #8490ff, #62bdfc);
+    opacity: 80%;
+    border-radius: 10px;
+    padding: 146px 142px;
     display: none;
     position: absolute;
-    right: 150px;
-    bottom: 206px;
+    right: 10px;
+    bottom: 69px;
 }
 .itm-card-2>img:hover+a,.itm-card-2>a:hover,.itm-card-2:hover a{
     display: inline-block;
