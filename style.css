@@ -467,10 +467,20 @@ header>div>ul>li ul li:hover a{
 .itm-card-buy{
     width: 20%; 
     display: inline-block;
+    text-align: center;
 }
 .itm-card-buy *{
     display: block;
     margin: 0 auto;
+}
+.itm-card-buy h1{
+    padding: 0;
+    font-weight: 300;
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    border-radius:100px ;
+    border: 30px solid rgba(132, 144, 255, 0.233);
 }
 .itm-card-buy p{
     font-size: 14px;
@@ -490,6 +500,44 @@ header>div>ul>li ul li:hover a{
     text-align: center;
     margin-top: 40px;
 }
+.itm-card-buy a:nth-last-child(1){
+    display: none;
+}
+/* hover main 7 start */
+.itm-card-buy:hover{
+    transform: scale(1.3,1.25);
+    background: linear-gradient(to right, #8490ff, #62bdfc);
+}
+.itm-card-buy:hover h1{
+    color: #fff;
+    border: 25px solid rgba(199, 204, 252, 0.233);
+    width: 70px;
+    height: 70px;
+}
+.itm-card-buy:hover span{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+}
+.itm-card-buy:hover p{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 300;
+    color: #ffffff;
+}
+.itm-card-buy:hover a:nth-last-child(2){
+    display: none;
+}
+.itm-card-buy:hover a:nth-last-child(1){
+    font-size: 14px;
+    background-color: #fff;
+    display: inline-block;
+    padding: 5px 50px ;
+    margin-bottom: 10px;
+}
+/* hover main 7 end */
 /* itm card buy main7 end */
 /* main 7 end */
 /* main end */
