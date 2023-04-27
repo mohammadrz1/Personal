@@ -5,6 +5,9 @@
     transition-duration: 0.5s;
     transition-delay: 0.1s;
 }
+body{
+    margin: 0;
+}
 p{
     color: #4d4f4d;
     font-size: 13px;
@@ -540,4 +543,93 @@ header>div>ul>li ul li:hover a{
 /* hover main 7 end */
 /* itm card buy main7 end */
 /* main 7 end */
+/* main 8 start */
+/* title main 8 start */
+#title-main8{
+    margin-top: 350px;
+    text-align: center;
+}
+#title-main8 h1{
+    color: #222;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+#title-main8 p{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 300;
+    color: #978998;
+    margin: 0 120px;
+}
+/* title main 8 end */
+/* img main 8 start */
+#main8-body{
+    margin-top: 70px;
+}
+.itm-card-img{
+    width: 32%;
+    display: inline-block;
+    box-sizing: content-box;
+}
+.itm-card-img:hover>h4{
+    color: #8c99ff;
+}
+.itm-card-img:nth-of-type(1),
+.itm-card-img:nth-of-type(2){
+    margin-right: 15px;
+}
+.itm-card-img>div:first-of-type{
+    width: 100%;
+}
+.itm-card-img:hover>div:first-of-type>img:first-of-type{
+    transform: scale(0.9);
+}
+.itm-card-img>div:first-of-type>img:first-of-type{
+    width: 319px;
+}
+.itm-card-img>div:first-of-type>span:first-of-type{
+    font-weight: 300;
+    font-size: 13px;
+    color: #222;
+    position: relative;
+    bottom: 10px;
+    left: 8px;
+}
+.itm-card-img>div:first-of-type>span:nth-of-type(2),.itm-card-img>div:first-of-type>span:nth-of-type(3),.itm-card-img>div:first-of-type>h6,.itm-card-img>div:first-of-type>span:nth-of-type(4){
+    font-size: 13px;
+    font-weight: 300;
+    color: #777;
+    position: relative;
+    left: 60px;
+    bottom: 9px;
+    margin: 0;
+    display: inline-block;
+}
+.itm-card-img>div:first-of-type>span:nth-of-type(3),.itm-card-img>div:first-of-type>h6:nth-of-type(1){
+    left: 65px;
+}
+.itm-card-img>div:first-of-type>span:nth-of-type(4){
+    left: 80px;
+}
+.itm-card-img>div:first-of-type>h6:nth-of-type(2){
+    left: 79px;
+}
+/* img main 8 end */
+/* main 8 body start */
+.itm-card-img>h4{
+    margin: 0;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.itm-card-img>p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #978998;
+}
+/* main 8 body end */
+/* main 8 end */
 /* main end */
