@@ -460,7 +460,7 @@ header>div>ul>li ul li:hover a{
 /* itm card buy main7 start */
 #buy-card-main7{
     width: 1400px;
-    margin: 130px auto 0 auto;
+    margin: 110px auto 0 auto;
 }
 .itm-card-buy:nth-of-type(2),.itm-card-buy:nth-of-type(3){
     margin-right: 50px;
@@ -522,7 +522,7 @@ header>div>ul>li ul li:hover a{
 /* hover main 7 start */
 .itm-card-buy:hover{
     background: linear-gradient(to right, #8490ff, #62bdfc);
-    padding:20px 20px 70px 20px;
+    padding:15px 15px 55px 15px;
 }
 .itm-card-buy:hover h1{
     color: #fff;
@@ -557,7 +557,7 @@ header>div>ul>li ul li:hover a{
 /* main 8 start */
 /* title main 8 start */
 #title-main8{
-    margin-top: 230px;
+    margin-top: 220px;
     text-align: center;
 }
 #title-main8 h1{
