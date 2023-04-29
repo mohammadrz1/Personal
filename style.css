@@ -654,12 +654,16 @@ header>div>ul>li ul li:hover a{
     margin-top: 150px;
 }
 .itm-card-footer{
-    margin: 74px 0;
+    margin: 74px 0 0 0;
+    opacity: 50%;
 }
 .itm-card-footer:nth-of-type(1),
 .itm-card-footer:nth-of-type(2),
 .itm-card-footer:nth-of-type(3){
     margin-right:72px ;
+}
+.itm-card-footer:hover{
+    opacity: 100%;
 }
 /* footer section 1 end */
 /* footer end */
