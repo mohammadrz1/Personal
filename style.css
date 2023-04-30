@@ -5,8 +5,20 @@
     transition-duration: 0.5s;
     transition-delay: 0.1s;
 }
+::selection{
+    background-color: #8490ff;
+    color: white;
+}
+section *::selection{
+   background-color: #191919;
+   color: #565556;
+}
 body{
     margin: 0;
+}
+footer *::selection{
+    background-color: #04091e;
+    color: red;
 }
 p{
     color: #4d4f4d;
@@ -26,13 +38,7 @@ ul{
     padding: 0;
     list-style: none;
 }
-::a{
-    color: #8c99ff;
-}
-::selection{
-    background-color: #8490ff;
-    color: white;
-}
+
 .contenar{
     width: 1000px;
     margin: 0 auto;
@@ -653,6 +659,7 @@ header>div>ul>li ul li:hover a{
     text-align: center;
     margin-top: 150px;
 }
+
 .itm-card-footer{
     margin: 74px 0 0 0;
     opacity: 50%;
@@ -666,4 +673,74 @@ header>div>ul>li ul li:hover a{
     opacity: 100%;
 }
 /* footer section 1 end */
+/* footer section 2 start */
+#contenar-2-footer-2{
+    width: 100%;
+    height: 400px;
+    background-color: #04091e;
+    display: inline-block;
+    text-align: center;
+}
+#contenar-2-footer-2 div{
+    display: inline-block;
+}
+#itm-card-left-footer ,#itm-card-center{
+    margin-right: 20px;
+}
+#itm-card-left-footer ,#itm-card-center{
+    margin-top: 100px;
+    float: left;
+    width: 400px;
+    position: relative;
+    text-align: left;
+}
+#itm-card-right-footer{
+    margin-top: 100px;
+    float: left;
+    width: 140px;
+    position: relative;
+    text-align: left;
+}
+#itm-card-left-footer h4,#itm-card-center h4,#itm-card-right-footer h4{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+#itm-card-left-footer p ,#itm-card-center p,#itm-card-right-footer p{
+    color: #687577;
+    font-size: 14px;
+    font-weight: 300;
+}
+#itm-card-left-footer a{
+    color: #4e7ff1;
+}
+#itm-card-center form input[type="text"]{
+    width: 300px;
+    height: 20px;
+    padding: 10px 0 10px 15px;
+    border: none;
+    font-size: 13px;
+}
+#itm-card-center form button{
+    padding: 10px 15px;
+    position: absolute;
+    bottom: 0.001px;
+    background-color: #8490ff;
+    border: none;
+}
+#itm-card-center form button:hover{
+    background-color: #8490ff;
+}
+#itm-card-center form button span{
+    color: white;
+}
+#itm-card-right-footer a{
+    margin-right: 15px;
+    color: white;
+    font-size: 14px;
+}
+#itm-card-right-footer a:hover{
+    color: #5277f8;
+}
+/* footer section 2 end */
 /* footer end */
